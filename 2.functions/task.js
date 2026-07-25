@@ -54,7 +54,7 @@ function averageEvenElementsWorker(...arr) {
     let sumEvenElement = 0;
     let countEvenElement = 0;
     
-    if (countEvenElement === 0) {
+    if (arr.length === 0) {
         return 0;
     }
 
