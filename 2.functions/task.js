@@ -6,5 +6,3 @@ function getArrayParams(...arr) {
 
     return {max: max, min: min, avg: avg};
 }
-
-console.log(getArrayParams(2.4555, 3.09998, 5));
